@@ -61,7 +61,7 @@ const PortfolioPage = () => {
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">{item.desc}</p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-1 text-sm md:p-4 md:text-md lg:p-5 bg-white text-gray-600 font-semibold m-2 rounded">See Demo</button>
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-5 bg-white text-gray-600 font-semibold m-2 rounded">See Demo</button>
                   </Link>
                 </div>
               </div>
