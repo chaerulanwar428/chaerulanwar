@@ -78,24 +78,18 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <a href="https://github.com/chaerulanwar428/">
           <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </a>
+        <a href="https://www.instagram.com/chaerulanwarzzz/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </a>
+        <a href="https://www.linkedin.com/in/chaerul-anwar428428/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>
+        </a>
+        <a href="mailto:chaerulanwar428@gmail.com">
+          <Image src="/email.png" alt="" width={24} height={24} />
+        </a>
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
