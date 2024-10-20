@@ -29,7 +29,7 @@ const Homepage = () => {
         cy="50"
         r="48"
         stroke="#00ff99"
-        strokeWidth="4"
+        strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
         initial={{ strokeDasharray: "24 10 0 0" }}
@@ -38,7 +38,7 @@ const Homepage = () => {
           rotate: [120, 360],
         }}
         transition={{
-          duration: 20,
+          duration: 15,
           repeat: Infinity,
           repeatType: "reverse",
         }}
