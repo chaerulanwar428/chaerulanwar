@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Homepage = () => {
-  const text = "Chaerul Anwar";
+  const text = "Chaerul Anwar a Fullstack Developer";
   return (
     <motion.div
       className="h-full"
@@ -21,7 +21,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-3xl md:text-6xl font-bold">
-            Hello, I am
+            Hello, I am 
             {text.split("").map((letter, index) => (
               <motion.span
                 key={index}
@@ -36,7 +36,7 @@ const Homepage = () => {
                 {letter}
               </motion.span>
             ))}
-            <br/> a Fullstack Developer
+            <br/> 
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
