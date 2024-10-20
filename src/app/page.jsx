@@ -13,39 +13,39 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col lg:justify-evenly px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="relative flex items-center justify-center">
-  <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] relative mix-blend-lighten">
-    <Image src="/profile.png" alt="" className="w-[215px] h-[250px] xl:w-[310px] xl:h-[345px] flex items-center justify-center m-auto self-center" />
-    <motion.svg
-      className="absolute top-0 left-0 w-full h-full"
-      fill="transparent"
-      viewBox="0 0 100 100"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <motion.circle
-        cx="50"
-        cy="50"
-        r="48"
-        stroke="#0B192C"
-        strokeWidth="1"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        initial={{ strokeDasharray: "24 10 0 0" }}
-        animate={{
-          strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
-          rotate: [120, 360],
-        }}
-        transition={{
-          duration: 15,
-          repeat: Infinity,
-          repeatType: "reverse",
-        }}
-      />
-    </motion.svg>
-  </div>
-</div>
+            <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] relative mix-blend-lighten">
+              <Image src="/profile.png" alt="" className="w-[215px] h-[250px] xl:w-[310px] xl:h-[345px] flex items-center justify-center m-auto self-center" />
+              <motion.svg
+                className="absolute top-0 left-0 w-full h-full"
+                fill="transparent"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <motion.circle
+                  cx="50"
+                  cy="50"
+                  r="48"
+                  stroke="#0B192C"
+                  strokeWidth="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  initial={{ strokeDasharray: "24 10 0 0" }}
+                  animate={{
+                    strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                    rotate: [120, 360],
+                  }}
+                  transition={{
+                    duration: 15,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                  }}
+                />
+              </motion.svg>
+            </div>
+          </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
