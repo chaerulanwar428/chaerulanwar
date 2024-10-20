@@ -17,7 +17,7 @@ const Homepage = () => {
         {/* IMAGE CONTAINER */}
         <div className="relative flex items-center justify-center">
   <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] relative mix-blend-lighten">
-    <Image src="/profile.png" alt="" fill className="w-[278px] h-[278px] xl:w-[478px] xl:h-[478px] self-center" />
+    <Image src="/profile.png" alt="" fill className="w-[215px] h-[250px] xl:w-[478px] xl:h-[478px] flex items-center justify-center" />
     <motion.svg
       className="absolute top-0 left-0 w-full h-full"
       fill="transparent"
