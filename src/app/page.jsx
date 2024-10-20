@@ -15,35 +15,36 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 absolute">
-          <Image src="/profile.png" alt="" fill className="object-contain" />
-
-          <motion.svg
-            className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
-            fill="transparent"
-            viewbox="0 0 506 506"
-            xmlns="http://w3.org/2000/svg"
-          >
-              <motion.circle
-              cx="253"
-              cy="253"
-              r="250"
-              stroke="#00ff99"
-              strokewidth="4"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              initial={{strokeDasharray:"24 10 0 0"}}
-              animate={{
-                strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
-                rotate: [120, 360],
-              }}
-              transition={{
-                duration:20,
-                repeat: Infinity,
-                repeatType: "reverse",
-              }}
-              />
-          </motion.svg>
+        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+            <div className="absolute">
+              <Image src="/profile.png" alt="" fill className="object-contain" />
+              <motion.svg
+                className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+                fill="transparent"
+                viewbox="0 0 506 506"
+                xmlns="http://w3.org/2000/svg"
+                >
+                  <motion.circle
+                  cx="253"
+                  cy="253"
+                  r="250"
+                  stroke="#00ff99"
+                  strokewidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  initial={{strokeDasharray:"24 10 0 0"}}
+                  animate={{
+                    strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+                    rotate: [120, 360],
+                  }}
+                  transition={{
+                    duration:20,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                  }}
+                  />
+              </motion.svg>
+            </div>
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
