@@ -21,7 +21,7 @@ const Homepage = () => {
     <motion.svg
       className="absolute top-0 left-0 w-full h-full"
       fill="transparent"
-      viewBox="0 0 506 506"
+      viewBox="0 0 100 100"
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.circle
