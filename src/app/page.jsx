@@ -24,7 +24,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-           I'm a web developer with extensive exprience for 1 years. 
+           I&apos;m a web developer with extensive exprience for 1 years. 
            experrtise is to create and website design, frontend design and many more. 
           </p>
           {/* BUTTONS */}
