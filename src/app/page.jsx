@@ -28,7 +28,7 @@ const Homepage = () => {
         cx="50"
         cy="50"
         r="48"
-        stroke="#00ff99"
+        stroke="#0B192C"
         strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
