@@ -16,7 +16,7 @@ const ContactPage = () => {
     setSuccess(false);
 
     emailjs
-    .sendForm('"service_2ehp9nl', 'template_1k14a3h', form.current, {
+    .sendForm('service_2ehp9nl', 'template_1k14a3h', form.current, {
         publicKey: 'QpwS-pYCcgmKTDYaD',
       })
       .then(
