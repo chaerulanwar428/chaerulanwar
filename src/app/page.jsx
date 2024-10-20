@@ -25,7 +25,7 @@ const Homepage = () => {
           {/* DESC */}
           <p className="md:text-xl">
            I&apos;m a web developer with extensive exprience for 1 years. 
-           experrtise is to create and website design, frontend design and many more. 
+           expertise is to create and website design, frontend design and many more. 
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
