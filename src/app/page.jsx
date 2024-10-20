@@ -13,7 +13,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:justify-evenly px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col lg:flex-row justify-evenly px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="relative flex items-center justify-center">
             <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] relative mix-blend-lighten">
