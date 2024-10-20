@@ -25,9 +25,9 @@ const Homepage = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.circle
-        cx="70"
-        cy="70"
-        r="67"
+        cx="55"
+        cy="55"
+        r="43"
         stroke="#0B192C"
         strokeWidth="1"
         strokeLinecap="round"
