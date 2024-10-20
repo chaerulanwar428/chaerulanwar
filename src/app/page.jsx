@@ -29,7 +29,7 @@ const Homepage = () => {
         cy="50"
         r="48"
         stroke="#00ff99"
-        strokeWidth="0.8"
+        strokeWidth="4"
         strokeLinecap="round"
         strokeLinejoin="round"
         initial={{ strokeDasharray: "24 10 0 0" }}
