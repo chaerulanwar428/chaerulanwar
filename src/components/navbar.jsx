@@ -88,7 +88,7 @@ const Navbar = () => {
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </a>
         <a href="mailto:chaerulanwar428@gmail.com">
-          <Image src="/email.png" alt="" width={24} height={24} />
+          <Image className="rounded-lg" src="/email.png" alt="" width={24} height={24} />
         </a>
       </div>
       {/* RESPONSIVE MENU */}
