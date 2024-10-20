@@ -20,6 +20,7 @@ const Homepage = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
+          <div>
           <h1 className="text-3xl md:text-4xl font-bold">
             Hello, <br/>I am
             {text.split("").map((letter, index) => (
@@ -38,6 +39,7 @@ const Homepage = () => {
             ))}
             <br/> a Fullstack Developer
           </h1>
+          </div>
           {/* DESC */}
           <p className="md:text-xl">
            I&apos;m a web developer with extensive exprience for 1 years. 
